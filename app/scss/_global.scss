@@ -1,0 +1,37 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+html,
+body{
+	height: 100%;
+}
+body{
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+}
+a{
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+}
+ul,
+li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.container-fluid{
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.container{
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
