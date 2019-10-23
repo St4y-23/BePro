@@ -52,6 +52,9 @@ header{
   display: flex;
   text-transform: uppercase;
   font-size: 12px;
+  a{
+    color: #fff;
+  }
 }
 .bar__sign-up{
   padding-left: 20px;
@@ -61,6 +64,9 @@ header{
   font-size: 30px;
   display: flex;
   text-align: center;
+  a{
+    color: #fff;
+  }
 }
 .bar__basket{
   &::before{
@@ -367,6 +373,7 @@ header{
 }
 .products__item-banner{
   width: 954px;
+  height: 328px;
   position: relative;
   &:hover{
     .banner__item__btn{
@@ -970,6 +977,7 @@ ul.tabs {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 14px;
+    cursor: pointer;
   }
 }
 .footer__head-form__title{
@@ -980,7 +988,7 @@ ul.tabs {
   text-transform: uppercase;
 }
 .footer__contact{
-  max-width: 200px;
+  max-width: 210px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 12px;
@@ -997,7 +1005,33 @@ ul.tabs {
   }
 }
 .footer__contact-cards{
-  
+  li{
+    display: inline-block;
+    & + li{
+      margin-left: 8px;
+    }
+  }
+  a{
+    border-radius: 3px;
+    width: 32px;
+    height: 20px;
+    background-image: url(../images/cards/cards.png);
+  }
+  .cards-1{
+    background-position: 0 0;
+  }
+  .cards-2{
+    background-position: -32px 0;
+  }
+  .cards-3{
+    background-position: -64px 0;
+  }
+  .cards-4{
+    background-position: -96px 0;
+  }
+  .cards-5{
+    background-position: -128px 0;
+  }
 }
 
 

@@ -19,7 +19,7 @@ $(function () {
   });
 
 
-
+  // ТАБЫ СО СТРЕЛКАМИ ----------------------------------------->
   $('ul.tabs').delegate('li:not(.current)', 'click', function () {
     act(this);
   })
